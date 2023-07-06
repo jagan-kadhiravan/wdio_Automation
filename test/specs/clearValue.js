@@ -27,13 +27,15 @@ describe("verify the textbox is clear value",()=>
   
         //to clear of username
         await userName.clearValue();
+
         //const clearName = await userName.getValue();
         //console.log(clearName);
 
-      //To clear the password
-      await password.clearValue();
-     //const passValue = await password.getValue();
-      //console.log(passValue);
+       //To clear the password
+       await password.clearValue();
+
+       //const passValue = await password.getValue();
+       //console.log(passValue);
 
       if(userName==='' && password==='')
       {

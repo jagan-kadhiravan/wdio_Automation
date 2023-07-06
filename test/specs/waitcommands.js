@@ -13,7 +13,7 @@ describe('wikipedia login', () =>
         browser.url('https://en.wikipedia.org/wiki/Main_Page')
 
        //to check the text is prsent or not
-       const ele= await $("span.mw-headline > a");
+       const ele= await $("span.mw-headline > a");//css selector
       //expect(ele).toHaveText('Welcome to Wikipedia')
       await ele.isEqual('Welcome to Wikipedia');
       console.log('finised')

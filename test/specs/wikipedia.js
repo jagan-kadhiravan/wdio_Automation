@@ -75,12 +75,12 @@ describe("verify login",()=>
           console.log(value);
 
 
-         //value.should.be.equal(expectedUser
+         //value.should.be.equal(expectedUser)
 
           if(value=="Jagan9797")
           {
             console.log("user is correct")
-        }
+          }
         else
         {
             console.log("enter the correct user")
